@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Virtual environment
+venv/
+.env/
+
+# macOS
+.DS_Store
+
+# Airflow
+logs/
+dags/__pycache__/
+
+# Secrets
+.env
+*.txt
